@@ -20,7 +20,7 @@ const path = require('path');
         fs.mkdirSync(framesDir);
     }
 
-    await page.goto('file:///C:/Users/alias/Downloads/terminal/code.html');
+    await page.goto('your-file-path');
 
     // Wait for page to fully load
     await page.waitForLoadState('networkidle');
